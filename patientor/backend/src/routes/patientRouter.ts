@@ -1,4 +1,4 @@
-import express, { type Response } from 'express';
+import express from 'express';
 import patientService from '../services/patientService.ts';
 import toNewPatientEntry from '../utils.ts';
 import { z } from 'zod';
